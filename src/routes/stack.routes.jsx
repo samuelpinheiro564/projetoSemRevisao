@@ -5,12 +5,9 @@ import Home from "../screens/Home";
 const Stack = createNativeStackNavigator();
 const StackRouters = () => {
   return (
-    <Tab.Navigator>
-      <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="Notifications" component={Notifications} />
-      <Tab.Screen name="Profile" component={Profile} />
-      <Tab.Screen name="Settings" component={Settings} />
-    </Tab.Navigator>
+    <Stack.Navigator>
+      <Stack.Screen name="Home" component={Home} />
+    </Stack.Navigator>
   );
 };
 export default StackRouters;
