@@ -1,4 +1,4 @@
-import { NavigationContainer } from "@react-navigation/stack/lib/typescript/src/types";
+import { NavigationContainer } from "@react-navigation/native";
 
 import StackRouters from "./stack.routes";
 
